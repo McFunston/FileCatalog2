@@ -9,19 +9,18 @@ using System.Threading.Tasks;
 namespace FileCatalog.Biz.Tests
 {
     [TestClass()]
-    public class FileTests
+    public class FileListTests
     {
         [TestMethod()]
-        public void ToStringTest()
+        public void FileListTest()
         {
             //Arrange
-            DateTime DTTester = DateTime.Now;
-            var expected = $"Name: test.txt Date Created: {DTTester} Path: c: Size: 1000";
+
             //Act
-            File actual = new File("test.txt", DTTester, "c:", (long)1000);
+            var testList = new FileList();
             //Assert
-            Assert.AreEqual(expected, actual.ToString());
+
+            Assert.IsNotNull(testList.ListofFiles);
         }
     }
-
 }

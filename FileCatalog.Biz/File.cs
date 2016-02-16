@@ -12,10 +12,10 @@ namespace FileCatalog.Biz
 
     public class File : IFile
     {
-        public string Name { get; private set; }
-        public DateTime DateCreated { get; private set; }
-        public string Path { get; private set; }
-        public long Size { get; private set; }
+        public string Name { get; set; }
+        public DateTime DateCreated { get; set; }
+        public string Path { get; set; }
+        public long Size { get; set; }
 
         /// <summary>
         /// File constructor

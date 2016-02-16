@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FileCatalog.Biz
 {
-    interface IFile
+    public interface IFile
     {
-        string Name { get;}
-        DateTime DateCreated { get;}
-        string Path { get; }
-        long Size { get;}
+        string Name { get; set; }
+        DateTime DateCreated { get; set; }
+        string Path { get; set; }
+        long Size { get; set; }
     }
 }

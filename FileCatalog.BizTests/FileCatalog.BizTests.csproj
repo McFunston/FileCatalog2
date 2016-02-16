@@ -51,6 +51,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="FileListFactoryTests.cs" />
+    <Compile Include="FileListTests.cs" />
     <Compile Include="FileTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,6 +61,9 @@
       <Project>{75EA77C1-1474-462F-9BEA-38E0ADFB8F4C}</Project>
       <Name>FileCatalog.Biz</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dummie Folder\Test.txt" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
