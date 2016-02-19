@@ -18,10 +18,10 @@ namespace FileCatalog.Biz.Tests
             string expected = "Test.txt";
             //Act
 
-            IFileList testList = FileListFactory.GetFileListFromPath(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
-            string actual = testList.ListofFiles[0].Name;
+            var testList = FileListFactory.GetFileListFromPath(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
+            string actual = testList.Result.ListofFiles[0].Name;
             //Assert
-            Assert.IsNotNull(testList.ListofFiles);
+            Assert.IsNotNull(testList.Result);
             Assert.AreEqual(expected, actual);
         }
     }
