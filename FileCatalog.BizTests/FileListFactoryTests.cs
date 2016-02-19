@@ -18,7 +18,7 @@ namespace FileCatalog.Biz.Tests
             string expected = "Test.txt";
             //Act
 
-            var testList = FileListFactory.GetFileListFromPath(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
+            var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
             string actual = testList.Result.ListofFiles[0].Name;
             //Assert
             Assert.IsNotNull(testList.Result);

@@ -9,7 +9,7 @@ namespace FileCatalog.Biz
 {
     public static class FileListFactory
     {
-        public async static Task<FileList> GetFileListFromPath(string path)
+        public async static Task<FileList> GetFileListFromPathAsync(string path)
         {
             try
             {
