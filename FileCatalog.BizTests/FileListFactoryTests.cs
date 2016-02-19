@@ -12,16 +12,16 @@ namespace FileCatalog.Biz.Tests
     public class FileListFactoryTests
     {
         [TestMethod()]
-        public async void GetFileListFromPathTest()
+        public void GetFileListFromPathTest()
         {
             //Arrange
             string expected = "Test.txt";
             //Act
 
-            var testList = await FileListFactory.GetFileListFromPathAsync(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
-            string actual = testList.ListofFiles[0].Name;
+            var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
+            string actual = testList.Result.ListofFiles[0].Name;
             //Assert
-            Assert.IsNotNull(testList);
+            Assert.IsNotNull(testList.Result);
             Assert.AreEqual(expected, actual);
         }
     }
