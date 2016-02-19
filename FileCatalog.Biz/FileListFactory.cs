@@ -11,7 +11,8 @@ namespace FileCatalog.Biz
     {
         public static FileList GetFileListFromPath(string path)
         {
-            
+            try
+            {
                 var folder = new DirectoryInfo(@path);
                 FileList fileList = new FileList();
 
@@ -20,7 +21,13 @@ namespace FileCatalog.Biz
                     var tempFile = new File(fi.Name, fi.CreationTime, fi.FullName.Substring(2), fi.Length);
                     fileList.ListofFiles.Add(tempFile);
                 }
-            return fileList;
+                return fileList;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+
         }
     }
 }
