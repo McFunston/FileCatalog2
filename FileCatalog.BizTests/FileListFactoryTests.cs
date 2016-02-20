@@ -19,7 +19,8 @@ namespace FileCatalog.Biz.Tests
             //Act
             // This should really be done with "testList =  await FileListFactory... but it seems that unit tests can't be Async I could
             // create a helper method to do it asyncronously but that seems excessive
-            var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
+            // var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
+            var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Natasha & Mica\Documents\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\Dummie Folder");
             string actual = testList.Result.ListofFiles[0].Name;
             //Assert
             Assert.IsNotNull(testList.Result);
