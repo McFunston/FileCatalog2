@@ -20,10 +20,10 @@ namespace FileCatalog.Biz
         /// <summary>
         /// File constructor
         /// </summary>
-        /// <param name="name"></param>
-        /// <param name="dateCreated"></param>
-        /// <param name="path"></param>
-        /// <param name="size"></param>
+        /// <param name="name">File Name</param>
+        /// <param name="dateCreated">File creation date</param>
+        /// <param name="path">Full path</param>
+        /// <param name="size">File size</param>
         public File(string name, DateTime dateCreated, string path, long size)
         {
             Name = name;
@@ -32,6 +32,10 @@ namespace FileCatalog.Biz
             Size = size;
         }
 
+        /// <summary>
+        /// ToString override for unit tests
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return $"Name: {Name} Date Created: {DateCreated} Path: {Path} Size: {Size}";
