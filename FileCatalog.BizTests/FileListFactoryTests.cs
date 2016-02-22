@@ -24,5 +24,16 @@ namespace FileCatalog.Biz.Tests
             Assert.IsNotNull(testList.Result);
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod()]
+        public void FileListLengthTest()
+        {
+            //Arrange
+            int expected = 1;
+            //Act
+            var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
+            var actual = testList.Result.Length;
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

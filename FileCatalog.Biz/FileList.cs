@@ -8,6 +8,7 @@ namespace FileCatalog.Biz
 {
     public class FileList : IFileList
     {
+        public int Length { get { return ListofFiles.Count; } }
         public List<IFile> ListofFiles { get; set; }
         
         public FileList()

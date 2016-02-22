@@ -8,6 +8,7 @@ namespace FileCatalog.Biz
 {
     public interface IFileList
     {
+        int Length { get; } 
         List<IFile> ListofFiles { get; set; }
     }
 }
