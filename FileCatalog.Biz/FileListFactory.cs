@@ -25,8 +25,8 @@ namespace FileCatalog.Biz
                      }
                      return fileList;
                  });
-                await (GetFileListTask);
-                return GetFileListTask.Result;
+                
+                return await GetFileListTask;
             }
             catch (Exception)
             {

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace FileCatalog.Biz
 {
+    /// <summary>
+    /// A simple list of type IFile
+    /// </summary>
     public class FileList : IFileList
     {
         public int Length { get { return ListofFiles.Count; } }
