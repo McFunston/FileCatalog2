@@ -32,7 +32,8 @@ namespace FileCatalog.Biz.Tests
             //Arrange
             int expected = 1;
             //Act
-            var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
+            //var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
+            var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Natasha & Mica\Documents\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\Dummie Folder");
             var actual = testList.Result.Length;
             //Assert
             Assert.AreEqual(expected, actual);

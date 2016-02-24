@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,6 +18,14 @@ namespace FileCatalog.Biz
         public FileList()
         {
             ListofFiles = new List<IFile>();
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            foreach (var item in ListofFiles)
+            {
+                yield return item;
+            }
         }
     }
 }
