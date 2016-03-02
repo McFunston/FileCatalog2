@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FileCatalog.Biz
 {
-    class ArchiveInfo
+    public class ArchiveInfo
     {
         public string Name { get; set; }
         public DriveType DriveType { get; set; }
