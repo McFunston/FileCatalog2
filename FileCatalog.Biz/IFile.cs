@@ -12,5 +12,6 @@ namespace FileCatalog.Biz
         DateTime DateCreated { get; set; }
         string Path { get; set; }
         long Size { get; set; }
+        string Extension { get; set; }
     }
 }

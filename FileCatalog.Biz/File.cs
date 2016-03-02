@@ -16,6 +16,7 @@ namespace FileCatalog.Biz
         public DateTime DateCreated { get; set; }
         public string Path { get; set; }
         public long Size { get; set; }
+        string Extension { get; set; }
 
         /// <summary>
         /// File constructor
@@ -24,12 +25,13 @@ namespace FileCatalog.Biz
         /// <param name="dateCreated">File creation date</param>
         /// <param name="path">Full path</param>
         /// <param name="size">File size</param>
-        public File(string name, DateTime dateCreated, string path, long size)
+        public File(string name, DateTime dateCreated, string path, long size, string extension)
         {
             Name = name;
             DateCreated = dateCreated;
             Path = path;
             Size = size;
+            Extension = extension;
         }
 
         /// <summary>
