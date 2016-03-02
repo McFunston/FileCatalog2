@@ -17,10 +17,10 @@ namespace FileCatalog.Biz.Tests
             //Arrange
 
             //Act
-            var testList = new FileList();
+            var testList = new List<File>();
             //Assert
 
-            Assert.IsNotNull(testList.ListofFiles);
+            Assert.IsNotNull(testList);
         }
     }
 }

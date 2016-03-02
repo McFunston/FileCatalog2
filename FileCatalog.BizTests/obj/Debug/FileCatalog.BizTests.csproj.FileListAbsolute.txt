@@ -6,3 +6,11 @@ C:\Users\Natasha & Mica\Documents\Visual Studio Projects\FileCatalog2\FileCatalo
 C:\Users\Natasha & Mica\Documents\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.csprojResolveAssemblyReference.cache
 C:\Users\Natasha & Mica\Documents\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.dll
 C:\Users\Natasha & Mica\Documents\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.pdb
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\bin\Debug\FileCatalog.BizTests.dll
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\bin\Debug\FileCatalog.BizTests.pdb
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\bin\Debug\FileCatalog.Biz.dll
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\bin\Debug\FileCatalog.Biz.pdb
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.csprojResolveAssemblyReference.cache
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.dll
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.pdb

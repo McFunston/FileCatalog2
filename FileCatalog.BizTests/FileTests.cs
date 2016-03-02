@@ -18,7 +18,7 @@ namespace FileCatalog.Biz.Tests
             DateTime DTTester = DateTime.Now;
             var expected = $"Name: test.txt Date Created: {DTTester} Path: c: Size: 1000";
             //Act
-            File actual = new File("test.txt", DTTester, "c:", (long)1000);
+            File actual = new File("test.txt", DTTester, "c:", (long)1000, "txt");
             //Assert
             Assert.AreEqual(expected, actual.ToString());
         }

@@ -3,3 +3,8 @@ C:\Users\Natasha & Mica\Documents\Visual Studio Projects\FileCatalog2\FileCatalo
 C:\Users\Natasha & Mica\Documents\Visual Studio Projects\FileCatalog2\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.csprojResolveAssemblyReference.cache
 C:\Users\Natasha & Mica\Documents\Visual Studio Projects\FileCatalog2\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.dll
 C:\Users\Natasha & Mica\Documents\Visual Studio Projects\FileCatalog2\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.pdb
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.csprojResolveAssemblyReference.cache
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.dll
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.pdb
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.Biz\bin\Debug\FileCatalog.Biz.dll
+C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.Biz\bin\Debug\FileCatalog.Biz.pdb

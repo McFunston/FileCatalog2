@@ -9,19 +9,19 @@ namespace FileCatalog.Biz
 {
     public static class FileListFactory
     {
-        public async static Task<FileList> GetFileListFromPathAsync(string path)
+        public async static Task<List<IFile>> GetFileListFromPathAsync(string path)
         {
             try
             {
                 var GetFileListTask = Task.Run(() =>
                  {
                      var folder = new DirectoryInfo(@path);
-                     FileList fileList = new FileList();
+                     var fileList = new List<IFile>();
 
                      foreach (var fi in folder.EnumerateFiles())
                      {
                          var tempFile = new File(fi.Name, fi.CreationTime, fi.FullName.Substring(2), fi.Length, fi.Extension);
-                         fileList.ListofFiles.Add(tempFile);
+                         fileList.Add(tempFile);
                      }
                      return fileList;
                  });

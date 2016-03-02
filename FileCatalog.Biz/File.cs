@@ -16,7 +16,7 @@ namespace FileCatalog.Biz
         public DateTime DateCreated { get; set; }
         public string Path { get; set; }
         public long Size { get; set; }
-        string Extension { get; set; }
+        public string Extension { get; set; }
 
         /// <summary>
         /// File constructor
