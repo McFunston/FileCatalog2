@@ -7,10 +7,13 @@ using System.Threading.Tasks;
 
 namespace FileCatalog.Biz
 {
+    /// <summary>
+    /// This is the Key type for the sorted list pairs of the archive set.
+    /// </summary>
     public class ArchiveInfo
     {
-        public string Name { get; set; }
-        public DriveType DriveType { get; set; }
+        public string Name { get; set; } //The name of the srchive set (eg. "DVD #5")
+        public DriveType DriveType { get; set; } //Captured so that we can tell the user the type of the archive media (USB, vs DVD, etc)
         public string Label { get; set; }
 
         public ArchiveInfo(string name, DriveType driveType, string label)

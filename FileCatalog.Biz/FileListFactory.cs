@@ -9,6 +9,11 @@ namespace FileCatalog.Biz
 {
     public static class FileListFactory
     {
+        /// <summary>
+        /// Returns a list of interface IFile. Since it's async it returns it as a Task
+        /// </summary>
+        /// <param name="path">The path that we want to get a file list from</param>
+        /// <returns></returns>
         public async static Task<List<IFile>> GetFileListFromPathAsync(string path)
         {
             try
