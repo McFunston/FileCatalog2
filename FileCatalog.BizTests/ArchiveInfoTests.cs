@@ -14,13 +14,14 @@ namespace FileCatalog.Biz.Tests
         [TestMethod()]
         public void ArchiveInfoTest()
         {
-            //Arrange
-            var archiveInfo = new ArchiveInfo("test", System.IO.DriveType.Fixed, "nolabel");
+            //Arrange            
             string expectedName = "test";
             System.IO.DriveType expectedMediaType = System.IO.DriveType.Fixed;
             string expectedlabel = "nolabel";
+            
             //Act
-
+            var archiveInfo = new ArchiveInfo("test", System.IO.DriveType.Fixed, "nolabel");
+            
             //Assert
             Assert.AreEqual(expectedName, archiveInfo.Name);
             Assert.AreEqual(expectedMediaType, archiveInfo.DriveType);

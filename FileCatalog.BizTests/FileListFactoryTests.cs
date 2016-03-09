@@ -38,5 +38,20 @@ namespace FileCatalog.Biz.Tests
             //Assert
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod()]
+        public void GetArchiveInfoTest()
+        {
+            //Arrange 
+            string expectedName = "test";
+            var expectedDriveType = System.IO.DriveType.Fixed;
+
+            //Act
+            var actual = FileListFactory.GetArchiveInfo("test", @"C:\");
+
+            //Assert
+            Assert.AreEqual(expectedName, actual.Name);
+            Assert.AreEqual(expectedDriveType, actual.DriveType);
+        }
     }
 }
