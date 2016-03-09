@@ -40,5 +40,19 @@ namespace FileCatalog.Biz
             }
 
         }
+        public static ArchiveInfo GetArchiveInfo(string archiveName, string path)
+        {
+            try
+            {
+                var drive = new DriveInfo(@path);
+                var archiveInfo = new ArchiveInfo(archiveName, drive.DriveType, drive.VolumeLabel);
+                return archiveInfo;
+            }
+            catch (Exception)
+            {
+                return null;
+                throw;
+            }
+        }
     }
 }
