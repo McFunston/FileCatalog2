@@ -51,6 +51,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ArchiveInfoTests.cs" />
     <Compile Include="FileListFactoryTests.cs" />
     <Compile Include="FileListTests.cs" />
     <Compile Include="FileTests.cs" />
