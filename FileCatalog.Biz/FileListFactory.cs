@@ -36,6 +36,7 @@ namespace FileCatalog.Biz
             catch (Exception)
             {
                 return null;
+                throw;
             }
 
         }
