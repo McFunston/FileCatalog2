@@ -46,12 +46,12 @@ namespace FileCatalog.Biz
         /// <param name="archiveName"></param>
         /// <param name="path"></param>
         /// <returns></returns>
-        public static ArchiveInfo GetArchiveInfo(string archiveName, string path)
+        public static Archive GetArchiveInfo(string archiveName, string path)
         {
             try
             {
                 var drive = new DriveInfo(@path);
-                var archiveInfo = new ArchiveInfo(archiveName, drive.DriveType, drive.VolumeLabel);
+                var archiveInfo = new Archive(archiveName, drive.DriveType, drive.VolumeLabel);
                 return archiveInfo;
             }
             catch (Exception)

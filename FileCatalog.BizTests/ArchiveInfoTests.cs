@@ -20,7 +20,7 @@ namespace FileCatalog.Biz.Tests
             string expectedlabel = "nolabel";
             
             //Act
-            var archiveInfo = new ArchiveInfo("test", System.IO.DriveType.Fixed, "nolabel");
+            var archiveInfo = new Archive("test", System.IO.DriveType.Fixed, "nolabel");
             
             //Assert
             Assert.AreEqual(expectedName, archiveInfo.Name);

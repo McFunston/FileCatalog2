@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArchiveInfo.cs" />
+    <Compile Include="Archive.cs" />
     <Compile Include="File.cs" />
     <Compile Include="FileListFactory.cs" />
     <Compile Include="IFile.cs" />
