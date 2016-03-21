@@ -43,6 +43,7 @@
     <Compile Include="Archive.cs" />
     <Compile Include="File.cs" />
     <Compile Include="FileListFactory.cs" />
+    <Compile Include="FileListFromPathReturnType.cs" />
     <Compile Include="IFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
