@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FileCatalog.Biz
 {
-    public class FileListFromPathReturnType
+    public class FileListReturnType
     {
         public bool Success { get; set; }
         public List<IFile> FileList { get; set; }

@@ -12,7 +12,7 @@ namespace FileCatalog.Biz.Tests
     public class FileListFactoryTests
     {
         [TestMethod()]
-        public void GetFileListFromPathTest()
+        public void GetFileListFromPathTestPass()
         {
             //Arrange
             string expected = "Test.txt";
@@ -21,11 +21,28 @@ namespace FileCatalog.Biz.Tests
             // create a helper method to do it asyncronously but that seems excessive
             // var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
             var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Dummie Folder");
-            string actual = testList.Result[0].Name;
+            string actual = testList.Result.FileList[0].Name;
             //Assert
-            Assert.IsNotNull(testList.Result);
+            Assert.IsNotNull(testList.Result.FileList);
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod()]
+        public void GetFileListFromPathTestFail1()
+        {
+            //Arrange
+            var expectedSuccess = false;
+            var expectedMessage = "The path that you selected was not found. Did you remove the media?";
+            //Act
+
+            var testList = FileListFactory.GetFileListFromPathAsync(@"m:\ther");
+            var actualSuccess = testList.Result.Success;
+            var actualMessage = testList.Result.ErrorMessage;
+            //Assert
+            Assert.AreEqual(expectedSuccess, actualSuccess);
+            Assert.AreEqual(expectedMessage, actualMessage);
+        }
+
         [TestMethod()]
         public void FileListLengthTest()
         {
@@ -34,7 +51,7 @@ namespace FileCatalog.Biz.Tests
             //Act
             //var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Users\Mica Funston\Documents\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\Dummie Folder");
             var testList = FileListFactory.GetFileListFromPathAsync(@"C:\Dummie Folder");
-            var actual = testList.Result.Count;
+            var actual = testList.Result.FileList.Count;
             //Assert
             Assert.AreEqual(expected, actual);
         }
