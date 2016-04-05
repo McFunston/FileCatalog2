@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCatalog", "FileCatalog\FileCatalog.csproj", "{D9B6D60F-0429-4720-A2D7-8779AA117F29}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCatalog.Biz", "FileCatalog.Biz\FileCatalog.Biz.csproj", "{75EA77C1-1474-462F-9BEA-38E0ADFB8F4C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCatalog.BizTests", "FileCatalog.BizTests\FileCatalog.BizTests.csproj", "{F50667AE-FE5E-4AF0-8D5B-60C5F18244CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCatalog.Repositories", "FileCatalog.Repositories\FileCatalog.Repositories.csproj", "{D64794AC-8331-4D06-A639-718B49F5F46C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,22 @@ Global
 		{F50667AE-FE5E-4AF0-8D5B-60C5F18244CE}.Release|x64.Build.0 = Release|Any CPU
 		{F50667AE-FE5E-4AF0-8D5B-60C5F18244CE}.Release|x86.ActiveCfg = Release|Any CPU
 		{F50667AE-FE5E-4AF0-8D5B-60C5F18244CE}.Release|x86.Build.0 = Release|Any CPU
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Debug|ARM.Build.0 = Debug|ARM
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Debug|x64.ActiveCfg = Debug|x64
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Debug|x64.Build.0 = Debug|x64
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Debug|x86.ActiveCfg = Debug|x86
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Debug|x86.Build.0 = Debug|x86
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Release|ARM.ActiveCfg = Release|ARM
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Release|ARM.Build.0 = Release|ARM
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Release|x64.ActiveCfg = Release|x64
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Release|x64.Build.0 = Release|x64
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Release|x86.ActiveCfg = Release|x86
+		{D64794AC-8331-4D06-A639-718B49F5F46C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
