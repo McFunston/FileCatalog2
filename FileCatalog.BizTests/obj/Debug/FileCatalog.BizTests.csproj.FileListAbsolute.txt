@@ -22,3 +22,11 @@ C:\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\bin\Debug\FileCatalog
 C:\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.csprojResolveAssemblyReference.cache
 C:\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.dll
 C:\Visual Studio Projects\FileCatalog\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.pdb
+C:\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\bin\Debug\FileCatalog.BizTests.dll
+C:\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\bin\Debug\FileCatalog.BizTests.pdb
+C:\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\bin\Debug\FileCatalog.Biz.dll
+C:\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\bin\Debug\FileCatalog.Biz.pdb
+C:\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.csprojResolveAssemblyReference.cache
+C:\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.dll
+C:\Visual Studio Projects\FileCatalog2\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.pdb
