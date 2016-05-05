@@ -13,5 +13,9 @@ namespace FileCatalog.Biz
         {
             FileSet.Add(archive, files);
         }
+        public Catalog()
+        {
+                
+        }
     }
 }
