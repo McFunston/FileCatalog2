@@ -13,3 +13,8 @@ C:\Visual Studio Projects\FileCatalog\FileCatalog.Biz\bin\Debug\FileCatalog.Biz.
 C:\Visual Studio Projects\FileCatalog\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.csprojResolveAssemblyReference.cache
 C:\Visual Studio Projects\FileCatalog\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.dll
 C:\Visual Studio Projects\FileCatalog\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.pdb
+C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.Biz\bin\Debug\FileCatalog.Biz.dll
+C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.Biz\bin\Debug\FileCatalog.Biz.pdb
+C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.csprojResolveAssemblyReference.cache
+C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.dll
+C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.Biz\obj\Debug\FileCatalog.Biz.pdb
