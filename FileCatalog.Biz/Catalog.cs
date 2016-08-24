@@ -8,7 +8,7 @@ namespace FileCatalog.Biz
 {
     public class Catalog
     {
-        public Dictionary<Archive, List<IFile>> FileSet { get; set; }
+        public Dictionary<Archive, ICollection<IFile>> FileSet { get; set; }
         public Catalog(Archive archive, List<IFile> files)
         {
             FileSet.Add(archive, files);
