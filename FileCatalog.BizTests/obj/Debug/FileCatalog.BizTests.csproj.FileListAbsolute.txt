@@ -38,3 +38,5 @@ C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.BizTests\bin\Deb
 C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.csprojResolveAssemblyReference.cache
 C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.dll
 C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.BizTests\obj\Debug\FileCatalog.BizTests.pdb
+C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.BizTests\bin\Debug\FileCatalog.Common.dll
+C:\Visual Studio Projects\FileCatalog2\FileCatalog2\FileCatalog.BizTests\bin\Debug\FileCatalog.Common.pdb

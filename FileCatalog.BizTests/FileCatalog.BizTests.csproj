@@ -62,6 +62,10 @@
       <Project>{75EA77C1-1474-462F-9BEA-38E0ADFB8F4C}</Project>
       <Name>FileCatalog.Biz</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FileCatalog.Common\FileCatalog.Common.csproj">
+      <Project>{ceef77d9-8577-4ca0-b536-1c22db6aca2d}</Project>
+      <Name>FileCatalog.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Dummie Folder\Test.txt" />

@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{75EA77C1-1474-462F-9BEA-38E0ADFB8F4C}</ProjectGuid>
+    <ProjectGuid>{CEEF77D9-8577-4CA0-B536-1C22DB6ACA2D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FileCatalog.Biz</RootNamespace>
-    <AssemblyName>FileCatalog.Biz</AssemblyName>
+    <RootNamespace>FileCatalog.Common</RootNamespace>
+    <AssemblyName>FileCatalog.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,15 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileListFactory.cs" />
-    <Compile Include="FileListReturnType.cs" />
+    <Compile Include="Archive.cs" />
+    <Compile Include="Catalog.cs" />
+    <Compile Include="File.cs" />
+    <Compile Include="IFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FileCatalog.Common\FileCatalog.Common.csproj">
-      <Project>{ceef77d9-8577-4ca0-b536-1c22db6aca2d}</Project>
-      <Name>FileCatalog.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
