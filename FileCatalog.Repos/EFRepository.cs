@@ -3,19 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FileCatalog.Biz;
 
 namespace FileCatalog.Repositories
 {
-    class EFRepository : IRepository
+    public class EFRepository : IRepository
     {
-        public void Load()
+        EFRepositoryContext EFR = new EFRepositoryContext();
+
+        public Catalog Load()
         {
             throw new NotImplementedException();
         }
 
-        public void Save()
+        public void Save(Catalog catalog)
         {
-            throw new NotImplementedException();
+            EFR.Catalogs.Add(catalog);
+            EFR.SaveChanges();
         }
 
         public void Search(string searchString)

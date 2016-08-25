@@ -7,9 +7,9 @@ namespace FileCatalog.Repositories
     {
         public EFRepositoryContext(): base()
         {
-
+            
         }
-
+        
         public DbSet<Catalog> Catalogs { get; set; }
     }
 }
