@@ -19,13 +19,19 @@ namespace FileCatalog.Repositories.Tests
             DateTime DTTester = DateTime.Now;
             var file = new File("test.txt", DTTester, "c:", (long)1000, "txt");
             var archiveInfo = new Archive("test", System.IO.DriveType.Fixed, "nolabel");
-            var listOfFiles = new List<IFile>();
-            listOfFiles.Add(file);
-            var catalog = new Catalog(archiveInfo, listOfFiles);
-            var repository = new EFRepository();
-            repository.Save(catalog);
+            //var listOfFiles = new List<IFile>();
+            //listOfFiles.Add(file);
+            //var catalog = new Catalog(archiveInfo, listOfFiles);
 
-            Assert.Fail();
+            //Act
+            using (var ctx = new EFRepositoryContext())
+            {
+                ctx.Files.Add(file);
+                ctx.Archives.Add(archiveInfo);
+                ctx.SaveChanges();
+            }
+            //Assert
+                Assert.Fail();
         }
     }
 }

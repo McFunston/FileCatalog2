@@ -18,8 +18,9 @@ namespace FileCatalog.Repositories
 
         public void Save(Catalog catalog)
         {
-            EFR.Catalogs.Add(catalog);
-            EFR.SaveChanges();
+            throw new NotImplementedException();
+            //EFR.Catalogs.Add(catalog);
+            //EFR.SaveChanges();
         }
 
         public void Search(string searchString)
