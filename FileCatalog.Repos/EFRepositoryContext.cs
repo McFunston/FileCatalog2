@@ -11,5 +11,6 @@ namespace FileCatalog.Repositories
         }
         
         public DbSet<Catalog> Catalogs { get; set; }
+        
     }
 }
