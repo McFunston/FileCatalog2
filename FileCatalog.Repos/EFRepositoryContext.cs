@@ -9,6 +9,9 @@ namespace FileCatalog.Repositories
         {
             
         }
+
+        public DbSet<File> Files { get; set; }
+        public DbSet<Archive> Archives { get; set; }
         
         public DbSet<Catalog> Catalogs { get; set; }
         
